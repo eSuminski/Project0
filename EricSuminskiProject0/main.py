@@ -23,7 +23,7 @@ customer_service = CustomerServiceImp(customer_dao)
 
 @app.get("/hello")
 def hello():
-    return "hello"
+    return "hello there!"
 
 
 @app.post("/clients")
